@@ -1,4 +1,4 @@
-# Storage
+# Simple Storage
 Storage is an extrmely fast program to store files on a webserver.
 
 ## Get Started
