@@ -1,0 +1,51 @@
+@mixin action-variant($color) {
+    &:focus, &:hover {
+        color: $color;
+    }
+}
+
+.action {
+    color: #666;
+    margin-left: 5px;
+    transition: all .1s linear;
+
+    .fa {
+        font-size: 16px;
+    }
+}
+
+.action-default {
+    @include action-variant(#6B6B6B);
+}
+
+.action-primary {
+    @include action-variant($btn-primary-bg);
+}
+
+.action-danger {
+   @include action-variant($btn-danger-bg);
+}
+
+.action-warning {
+   @include action-variant($btn-warning-bg);
+}
+
+.action-success {
+   @include action-variant($btn-success-bg);
+}
+
+.action-danger {
+    margin-left: 28px;
+
+    .action-primary+& {
+        margin-left: 6px;
+    }
+}
+
+.action-warning {
+    margin-left: 28px;
+
+    .action-primary+& {
+        margin-left: 6px;
+    }
+}

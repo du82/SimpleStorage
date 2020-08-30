@@ -1,0 +1,122 @@
+[class^="file-icon-"],
+[class*=" file-icon-"] {
+  color: #34495e;
+  font-size: 64px; }
+  [class^="file-icon-"]:before,
+  [class*=" file-icon-"]:before {
+    content: "\f016"; }
+    
+    
+.file-icon-mcworld:before {
+  content: "\f1b3"; }
+  
+.file-icon-mcpack:before {
+  content: "\f1b3"; }
+  
+.file-icon-mcaddon:before {
+  content: "\f1b3"; }
+  
+.file-icon-mctemplate:before {
+  content: "\f1b3"; }
+  
+.file-icon-txt:before {
+  content: "\f0f6"; }
+
+.file-icon-txt:before {
+  content: "\f0f6"; }
+
+.file-icon-pdf:before {
+  content: "\f1c1"; }
+
+.file-icon-ppt:before {
+  content: "\f1c4"; }
+
+.file-icon-pptx:before {
+  content: "\f1c4"; }
+
+.file-icon-mp3:before {
+  content: "\f1c7"; }
+
+.file-icon-aac:before {
+  content: "\f1c7"; }
+
+.file-icon-wav:before {
+  content: "\f1c7"; }
+
+.file-icon-doc:before {
+  content: "\f1c2"; }
+
+.file-icon-docx:before {
+  content: "\f1c2"; }
+
+.file-icon-rtf:before {
+  content: "\f1c2"; }
+
+.file-icon-xls:before {
+  content: "\f1c3"; }
+
+.file-icon-xlsx:before {
+  content: "\f1c3"; }
+
+.file-icon-csv:before {
+  content: "\f1c3"; }
+
+.file-icon-zip:before {
+  content: "\f1c6"; }
+
+.file-icon-rar:before {
+  content: "\f1c6"; }
+
+.file-icon-tgz:before {
+  content: "\f1c6"; }
+
+.file-icon-7z:before {
+  content: "\f1c6"; }
+
+.file-icon-mp4:before {
+  content: "\f1c8"; }
+
+.file-icon-mpg:before {
+  content: "\f1c8"; }
+
+.file-icon-avi:before {
+  content: "\f1c8"; }
+
+.file-icon-flv:before {
+  content: "\f1c8"; }
+
+.file-icon-html:before {
+  content: "\f1c9"; }
+
+.file-icon-xml:before {
+  content: "\f1c9"; }
+
+.file-icon-js:before {
+  content: "\f1c9"; }
+
+.file-icon-css:before {
+  content: "\f1c9"; }
+
+.file-icon-sql:before {
+  content: "\f1c9"; }
+
+.file-icon-jpg:before {
+  content: "\f1c5"; }
+
+.file-icon-jpeg:before {
+  content: "\f1c5"; }
+
+.file-icon-png:before {
+  content: "\f1c5"; }
+
+.file-icon-gif:before {
+  content: "\f1c5"; }
+
+.file-icon-bmp:before {
+  content: "\f1c5"; }
+
+.file-icon-psd:before {
+  content: "\f1c5"; }
+
+.file-icon-ai:before {
+  content: "\f1c5"; }

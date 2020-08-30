@@ -1,0 +1,31 @@
+[class^="file-icon-"],
+[class*=" file-icon-"] {
+	color: #34495e;
+	font-size: 64px;
+	&:before {
+		content: "\f016";
+	}
+}
+
+@mixin file-icons($extensions, $code) {
+    @each $extension in $extensions {
+        .file-icon-#{$extension} {
+            &:before {
+                content: unquote("\"\\#{$code}\"");
+            }
+        }
+    }
+}
+
+// http://fortawesome.github.io/Font-Awesome/icons/
+
+@include file-icons('txt', 'f0f6');
+@include file-icons('pdf', 'f1c1');
+@include file-icons('ppt' 'pptx', 'f1c4');
+@include file-icons('mp3' 'aac' 'wav', 'f1c7');
+@include file-icons('doc' 'docx' 'rtf', 'f1c2');
+@include file-icons('xls' 'xlsx' 'csv', 'f1c3');
+@include file-icons('zip' 'rar' 'tgz' '7z', 'f1c6');
+@include file-icons('mp4' 'mpg' 'avi' 'flv', 'f1c8');
+@include file-icons('html' 'xml' 'js' 'css' 'sql', 'f1c9');
+@include file-icons('jpg' 'jpeg' 'png' 'gif' 'bmp' 'psd' 'ai', 'f1c5');

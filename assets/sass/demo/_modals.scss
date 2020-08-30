@@ -1,0 +1,33 @@
+.modal-content {
+    border: none;
+    box-shadow: none;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.modal-header .close {
+    font-size: 30px;
+    font-weight: 300;
+    transition: all .1s linear;
+}
+
+.modal-body {
+    padding: 0 20px;
+}
+
+.modal-title {
+    font-size: 21px;
+}
+
+.modal-dialog {
+    @media (min-width: $screen-sm-min) {
+        margin: 60px auto;
+    }
+}
+
+.modal-backdrop.in {
+    opacity: 0.4;
+}

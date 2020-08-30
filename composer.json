@@ -1,0 +1,14 @@
+{
+    "name": "hazzard/filepicker",
+	"require": {
+        "php": ">=5.3.0",
+		"hazzard/config": "^1.0",
+		"intervention/image": "2.2.*",
+		"symfony/http-foundation": "2.6.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Hazzard\\Filepicker\\": "uploader/src/"
+		}
+	}
+}

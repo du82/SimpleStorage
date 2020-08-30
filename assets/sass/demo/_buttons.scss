@@ -1,0 +1,10 @@
+.btn {
+    &:focus, &:active:focus {
+        outline: none;
+    }
+
+    .fa {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+}

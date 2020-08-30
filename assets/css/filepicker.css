@@ -1,0 +1,60 @@
+.fileinput {
+  overflow: hidden;
+  position: relative;
+  display: inline-block; }
+  .fileinput input {
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute; }
+
+.drop-window {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  position: fixed;
+  z-index: 250000;
+  text-align: center;
+  pointer-events: none;
+  transition: opacity 250ms;
+  background: rgba(52, 73, 94, 0.62); }
+
+.drop-window-content {
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
+  border: 2px dashed #fff; }
+  .drop-window-content h3 {
+    left: 0;
+    right: 0;
+    top: 50%;
+    padding: 0;
+    color: #fff;
+    font-size: 34px;
+    margin: -8px 0 0;
+    position: absolute;
+    transform: translateY(-50%); }
+    .drop-window-content h3 .fa {
+      display: block;
+      font-size: 40px;
+      margin-bottom: 10px; }
+
+.camera-preview video {
+  width: 100% !important;
+  height: auto !important; }
+
+.crop-preview {
+  display: none; }
+  .crop-preview .img-responsive {
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 500px; }

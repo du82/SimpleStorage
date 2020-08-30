@@ -1,0 +1,40 @@
+.navbar-default {
+    .col-md-9 {
+        padding: 0px;
+    }
+
+    .navbar-toggle {
+        border: none;
+
+        .icon-bar {
+            height: 3px;
+            border-radius: 1px;
+
+            + .icon-bar {
+                margin-top: 3px;
+            }
+        }
+
+        &:hover, &:focus {
+            background: none;
+
+            > .icon-bar {
+                background-color: $accent-color;
+            }
+        }
+    }
+
+    .fa {
+        margin-right: 5px;
+    }
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-right {
+    @media (min-width: $screen-sm-min) {
+        margin-right: -28px;
+    }
+}

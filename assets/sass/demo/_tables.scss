@@ -1,0 +1,51 @@
+.table {
+    margin-bottom: 0px;
+
+    @media (max-width: $screen-sm-min) {
+        .column-date, .column-size  {
+            display: none;
+        }
+    }
+
+    .column-preview .preview {
+        height: 64px;
+    }
+
+    .files {
+        + tfoot {
+            display: none;
+        }
+
+        &:empty {
+            display: none;
+
+            + tfoot {
+               display: table-footer-group;
+            }
+        }
+    }
+
+    td, th {
+        color: #666;
+    }
+
+    tr {
+        th:last-child,
+        td:last-child {
+            width: 100px;
+        }
+    }
+
+    > thead > tr > th {
+        border-bottom: none;
+    }
+
+    .name {
+        word-break: break-all;
+    }
+}
+
+.table-responsive {
+    border: none;
+    margin-top: 15px;
+}

@@ -1,0 +1,52 @@
+// Colors
+$accent-color: #1abc9c;
+
+// Border radius
+$border-radius-base: 3px;
+$border-radius-large: 3px;
+
+// Buttons
+$btn-font-weight: 600;
+$btn-default-color: #5d5d5d;
+
+$btn-primary-color: #fff;
+$btn-primary-bg: #5da2f5;
+
+$btn-success-color: #fff;
+$btn-success-bg: #1abc9c;
+
+$btn-danger-color: #fff;
+$btn-danger-bg: #f46374;
+
+$btn-info-color: #fff;
+$btn-info-bg: #39bfd3;
+
+$btn-warning-color: #fff;
+$btn-warning-bg: #ffb54d;
+
+// Navbar
+$navbar-border-radius: 0px;
+$navbar-default-bg: #34495e;
+$navbar-default-link-color: #fff;
+$navbar-default-link-hover-color: $accent-color;
+$navbar-default-link-active-color: $accent-color;
+$navbar-default-brand-hover-color: $accent-color;
+$navbar-default-toggle-icon-bar-bg: #fff;
+$dropdown-link-active-bg: #34495e;
+
+// Progress bars
+$progress-border-radius: 2px;
+$progress-bar-bg: $accent-color;
+
+// Modals
+$modal-title-padding: 15px;
+$modal-inner-padding: 15px;
+
+// Scaffolding
+$body-bg: #f0f3f5;
+$link-color: #16a085;
+$link-hover-color: $accent-color;
+$link-hover-decoration: none;
+
+// Typography
+$font-family-sans-serif: "Lato", sans-serif;
