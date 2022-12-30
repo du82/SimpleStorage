@@ -9,4 +9,4 @@ Go to that domain in the browser, and you have access to upload, download, and d
 You can integrate Storage with the Retriever search engine to search through your files. Storage is based on file metadata, and does not need a database.
 
 ## Can I view all files on the server?
-Fear not, you can't view and edit anything, it is limited to a pre-generated folder called `files`.
+Fear not, you can't view and edit everything, it is limited to a pre-generated folder called `files`.
