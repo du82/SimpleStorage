@@ -1,3 +1,5 @@
+# NOTICE: This code is unmaintained and has known PHP vulnerabilities.
+
 # Simple Storage
 Storage is an extrmely fast program to store files on a webserver.
 
